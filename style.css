@@ -679,7 +679,208 @@ body {
     gap: 15px;
     margin-bottom: 25px;
 }
+/* 다른 사업 섹션 */
+.other-business {
+    background: black;
+    position: relative;
+}
 
+.other-business::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(
+        135deg,
+        rgba(99, 102, 241, 0.05),
+        rgba(236, 72, 153, 0.05)
+    );
+    z-index: 0;
+}
+
+.other-business .container {
+    position: relative;
+    z-index: 1;
+}
+
+.business-grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.business-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.business-card:hover::before {
+    transform: scaleX(1);
+}
+
+.business-card.cafe {
+    border-color: #059669;
+}
+
+.business-card.interior {
+    border-color: #000000;
+}
+
+.business-card.rental {
+    border-color: #0284c7;
+}
+
+.business-card.zeroking {
+    border-color: #c91e1e;
+}
+
+.business-card:hover {
+    transform: translateY(-15px);
+    box-shadow: var(--shadow-xl);
+}
+
+.business-card.cafe:hover {
+    border-color: #047857;
+    box-shadow: 0 20px 40px rgba(217, 119, 6, 0.3);
+}
+
+.business-card.interior:hover {
+    border-color: #059669;
+    box-shadow: 0 20px 40px rgba(5, 150, 105, 0.3);
+}
+
+.business-card.rental:hover {
+    border-color: #0284c7;
+    box-shadow: 0 20px 40px rgba(2, 132, 199, 0.3);
+}
+
+.business-card.zeroking:hover {
+    border-color: #c91e1e;
+    box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3);
+}
+
+.business-icon {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.business-card:hover .business-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.business-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.business-card p {
+    color: var(--text-gray);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.business-features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.business-features span {
+    background: var(--bg-light);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    color: var(--text-gray);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.business-card.cafe .business-features span:hover {
+    background: rgba(217, 119, 6, 0.1);
+    color: #d97706;
+}
+
+.business-card.interior .business-features span:hover {
+    background: rgba(5, 150, 105, 0.1);
+    color: #059669;
+}
+
+.business-card.rental .business-features span:hover {
+    background: rgba(2, 132, 199, 0.1);
+    color: #0284c7;
+}
+
+.business-card.zeroking .business-features span:hover {
+    background: #c91e1e;
+    color: #ffffff;
+}
+
+.business-link {
+    margin-top: auto;
+    width: 100%;
+}
+
+.btn-business {
+    width: 100%;
+    padding: 1rem 2rem;
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--primary-dark)
+    );
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-md);
+}
+
+.btn-business:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.business-card.cafe .btn-business {
+    background: linear-gradient(135deg, #059669, #047857);
+}
+
+.business-card.interior .btn-business {
+    background: linear-gradient(135deg, #000000, #000000);
+}
+
+.business-card.rental .btn-business {
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+}
+
+.business-card.zeroking .btn-business {
+    background: #c91e1e;
+}
 .share-option {
     display: flex;
     flex-direction: column;
