@@ -1,0 +1,141 @@
+{
+    "ko": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "지사장",
+            "name": "유경숙",
+            "address": " 서울특별시 금천구 벚꽃로 286, 1101호"
+        },
+        "action": {
+            "save": "연락처 저장",
+            "share": "명함 공유",
+            "qr": "QR 코드"
+        }
+    },
+
+    "en": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Branch Manager",
+            "name": "Kyung-sook Yoo",
+            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seoul, South Korea"
+        },
+        "action": {
+            "save": "Save Contact",
+            "share": "Share Card",
+            "qr": "QR Code"
+        }
+    },
+
+    "ja": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "支社長",
+            "name": "ユ・ギョンスク",
+            "address": "大韓民国 ソウル特別市 衿川区 桜花路286 サムスンリーダースタワー1101号"
+        },
+        "action": {
+            "save": "連絡先を保存",
+            "share": "名刺を共有",
+            "qr": "QRコード"
+        }
+    },
+
+    "zh": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "分公司经理",
+            "name": "柳京淑",
+            "address": "韩国 首尔特别市 衿川区 樱花路286号 三星Leader Star大厦1101室"
+        },
+        "action": {
+            "save": "保存联系人",
+            "share": "分享名片",
+            "qr": "二维码"
+        }
+    },
+
+    "fr": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Directrice de succursale",
+            "name": "Kyung-sook Yoo",
+            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Séoul, Corée du Sud"
+        },
+        "action": {
+            "save": "Enregistrer le contact",
+            "share": "Partager la carte",
+            "qr": "Code QR"
+        }
+    },
+
+    "de": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Niederlassungsleiterin",
+            "name": "Kyung-sook Yoo",
+            "address": "Samsung Leader Star Tower 1101, Beotkkot-ro 286, Geumcheon-gu, Seoul, Südkorea"
+        },
+        "action": {
+            "save": "Kontakt speichern",
+            "share": "Visitenkarte teilen",
+            "qr": "QR-Code"
+        }
+    },
+
+    "es": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Gerente de sucursal",
+            "name": "Kyung-sook Yoo",
+            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seúl, Corea del Sur"
+        },
+        "action": {
+            "save": "Guardar contacto",
+            "share": "Compartir tarjeta",
+            "qr": "Código QR"
+        }
+    },
+
+    "it": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Direttrice di filiale",
+            "name": "Kyung-sook Yoo",
+            "address": "Samsung Leader Star Tower 1101, Beotkkot-ro 286, Geumcheon-gu, Seoul, Corea del Sud"
+        },
+        "action": {
+            "save": "Salva contatto",
+            "share": "Condividi biglietto",
+            "qr": "Codice QR"
+        }
+    },
+
+    "pt": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Gerente da filial",
+            "name": "Kyung-sook Yoo",
+            "address": "1101, Samsung Leader Star Tower, 286 Beotkkot-ro, Geumcheon-gu, Seul, Coreia do Sul"
+        },
+        "action": {
+            "save": "Salvar contato",
+            "share": "Compartilhar cartão",
+            "qr": "Código QR"
+        }
+    },
+
+    "ru": {
+        "profile": {
+            "company": "POINTGROUND",
+            "title": "Руководитель филиала",
+            "name": "Кёнсук Ю",
+            "address": "Республика Корея, Сеул, Кымчхон-гу, Beotkkot-ro 286, Samsung Leader Star Tower, офис 1101"
+        },
+        "action": {
+            "save": "Сохранить контакт",
+            "share": "Поделиться визиткой",
+            "qr": "QR-код"
+        }
+    }
+}
