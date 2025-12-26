@@ -10,7 +10,7 @@
         />
         <meta
             property="og:image"
-            content="https://jongyoun3128.github.io/namecard-yookyungsook/images/urlimage.png"
+            content="https://jongyoun3128.github.io/namecard-yookyungsook/images/url.png"
         />
         <title>돈버는명함</title>
         <link rel="stylesheet" href="styles2.css" />
@@ -39,83 +39,148 @@
                 </div>
             </div>
         </nav>
-        <div class="cover-image" id="coverImage">
-            <img src="images/url.png" alt="" />
-        </div>
+
         <div class="container">
             <!-- 명함 카드 -->
-            <div class="card" id="businessCard">
-                <!-- 커버 이미지 (옵션) -->
 
+            <div class="card" id="businessCard">
                 <!-- 프로필 섹션 -->
                 <div class="profile-section">
                     <p class="company" data-i18n="profile.company">
                         POINTGROUND
                     </p>
-                    <p class="title" data-i18n="profile.title">지사장</p>
-                    <h1 class="name" data-i18n="profile.name">유경숙</h1>
-                    <p class="contact-value">010-7189-6039</p>
-                    <p class="contact-value">1811-8428</p>
-                    <p class="contact-value" data-i18n="profile.address">
-                        경기 화성시 서신면 해운로 34
-                    </p>
-                    <p class="contact-value">officecine01@gmail.com</p>
-                    <a href="http://pointground.co.kr/"
-                        ><p class="contact-value">www.pointground.co.kr</p></a
-                    >
-                    <div class="qr-code-wrapper1">
-                        <a
-                            href="https://jongyoun3128.github.io/namecard-yookyungsook/"
-                            target="_blank"
-                            ><img src="images/qrcode.png" alt=""
-                        /></a>
+                    <div class="flex-box">
+                        <div class="box">
+                            <p class="title" data-i18n="profile.title">
+                                지사장
+                            </p>
+                            <h1 class="name" data-i18n="profile.name">
+                                유경숙
+                            </h1>
+                            <p class="contact-value">010-7189-6039</p>
+                            <p class="contact-value">1811-8428</p>
+                        </div>
+                        <div class="qr-code-wrapper1">
+                            <a
+                                href="https://jongyoun3128.github.io/namecard-yookyungsook/"
+                                target="_blank"
+                                ><img src="images/qrcode.png" alt=""
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <p class="contact-value" data-i18n="profile.address">
+                            경기 화성시 서신면 해운로 34
+                        </p>
+                        <p class="contact-value">officecine01@gmail.com</p>
+                        <a href="http://pointground.co.kr/"
+                            ><p class="contact-value">
+                                www.pointground.co.kr
+                            </p></a
+                        >
                     </div>
                 </div>
-
-                <div class="share-options">
-                    <button class="share-option kakao" id="shareKakao">
-                        <i class="fas fa-comment"></i>
-                        <span>카카오톡</span>
-                    </button>
-                    <button class="share-option facebook" id="shareFacebook">
-                        <i class="fab fa-facebook-f"></i>
-                        <span>페이스북</span>
-                    </button>
-
-                    <button class="share-option band" id="shareBand">
-                        <i class="fas fa-users"></i>
-                        <span>밴드</span>
-                    </button>
-                    <button class="share-option email" id="shareEmail">
-                        <i class="fas fa-envelope"></i>
-                        <span>이메일</span>
-                    </button>
-                </div>
-                <!-- 액션 버튼 -->
-                <div class="action-buttons">
-                    <button class="btn btn-primary" id="saveContact">
-                        <i class="fas fa-address-book"></i>
-                        <span data-i18n="action.save">연락처 저장</span>
-                    </button>
-                    <button class="btn btn-secondary" id="shareBtn">
-                        <i class="fas fa-share-alt"></i>
-                        <span data-i18n="action.share">명함 공유</span>
-                    </button>
-                    <button class="btn btn-tertiary" id="qrBtn">
-                        <i class="fas fa-qrcode"></i>
-                        <span data-i18n="action.qr">QR 코드</span>
-                    </button>
-                </div>
             </div>
-            <div class="page">
-                <img src="images/page.png" alt="" />
+            <div class="share-options">
+                <button
+                    class="share-option kakao"
+                    id="shareKakao"
+                    type="button"
+                    aria-label="카카오톡 공유"
+                >
+                    <i class="fas fa-comment"></i>
+                    <span>카카오톡</span>
+                </button>
+
+                <button
+                    class="share-option facebook"
+                    id="shareFacebook"
+                    type="button"
+                    aria-label="페이스북 공유"
+                >
+                    <i class="fab fa-facebook-f"></i>
+                    <span>페이스북</span>
+                </button>
+
+                <button
+                    class="share-option twitter"
+                    id="shareTwitter"
+                    type="button"
+                    aria-label="트위터 공유"
+                >
+                    <i class="fab fa-twitter"></i>
+                    <span>트위터</span>
+                </button>
+
+                <button
+                    class="share-option line"
+                    id="shareLine"
+                    type="button"
+                    aria-label="라인 공유"
+                >
+                    <i class="fab fa-line"></i>
+                    <span>라인</span>
+                </button>
+
+                <button
+                    class="share-option band"
+                    id="shareBand"
+                    type="button"
+                    aria-label="밴드 공유"
+                >
+                    <i class="fas fa-users"></i>
+                    <span>밴드</span>
+                </button>
+
+                <button
+                    class="share-option email"
+                    id="shareEmail"
+                    type="button"
+                    aria-label="이메일 공유"
+                >
+                    <i class="fas fa-envelope"></i>
+                    <span>이메일</span>
+                </button>
+
+                <button
+                    class="share-option sms"
+                    id="shareSms"
+                    type="button"
+                    aria-label="SMS 공유"
+                >
+                    <i class="fas fa-sms"></i>
+                    <span>SMS</span>
+                </button>
+
+                <button
+                    class="share-option copy"
+                    id="shareCopy"
+                    type="button"
+                    aria-label="링크 복사"
+                >
+                    <i class="fas fa-link"></i>
+                    <span>링크복사</span>
+                </button>
+            </div>
+
+            <!-- 액션 버튼 -->
+            <div class="action-buttons">
+                <button class="btn btn-primary" id="saveContact">
+                    <i class="fas fa-address-book"></i>
+                    <span data-i18n="action.save">연락처 저장</span>
+                </button>
+                <button class="btn btn-secondary" id="shareBtn">
+                    <i class="fas fa-share-alt"></i>
+                    <span data-i18n="action.share">명함 공유</span>
+                </button>
+                <button class="btn btn-tertiary" id="qrBtn">
+                    <i class="fas fa-qrcode"></i>
+                    <span data-i18n="action.qr">QR 코드</span>
+                </button>
             </div>
             <section class="other-business">
                 <div class="container1">
-                    <h2 class="section-title big-size">
-                        포그몰과 함께하는 다양한 비즈니스
-                    </h2>
-                    <h2 class="section-title small-size">
+                    <h2 class="section-title1">
                         포그몰과 함께하는 다양한 비즈니스
                     </h2>
                 </div>
@@ -256,7 +321,7 @@
                             type="text"
                             id="shareUrl"
                             readonly
-                            value="https://yourcard.com/user123"
+                            value="https://jongyoun3128.github.io/namecard-yookyungsook/"
                         />
                         <button id="copyUrlBtn">
                             <i class="fas fa-copy"></i>

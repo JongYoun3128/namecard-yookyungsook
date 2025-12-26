@@ -42,7 +42,7 @@ const CARD_CONFIG = {
     share: {
         title: "손가비 회장 - 포인트그라운드",
         description: "포인트그라운드 손가비 회장의 디지털 명함입니다.",
-        url: "https://yourcard.com/songabi", // 실제 배포 URL로 변경
+        url: "https://jongyoun3128.github.io/namecard-yookyungsook/", // 실제 배포 URL로 변경
     },
 };
 

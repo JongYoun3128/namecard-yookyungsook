@@ -250,14 +250,21 @@ body {
     color: #cfb53b;
     margin-bottom: 8px;
 }
-
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 99%;
+}
 .company {
     font-size: 1rem;
     color: #cfb53b;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 8px;
+    margin-top: 10px;
 }
 
 /* 소개 섹션 */
@@ -578,8 +585,11 @@ body {
     box-shadow: var(--shadow-sm);
 }
 .qr-code-wrapper1 {
-    text-align: center;
+    text-align: right;
     margin-top: 30px;
+}
+.qr-code-wrapper1 img {
+    width: 40%;
 }
 #qrcode {
     display: flex;
@@ -1422,9 +1432,12 @@ body {
     .profile-section p {
         margin-bottom: 10px;
     }
+
     .share-options {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
     }
+
     .big-size {
         display: none;
     }
@@ -1434,8 +1447,11 @@ body {
     .qr-code-wrapper img {
         width: 100%;
     }
+    .center {
+        text-align: left;
+    }
     .qr-code-wrapper1 img {
-        width: 50%;
+        width: 35%;
     }
 
     .cover-image img {
@@ -1443,7 +1459,7 @@ body {
         border-radius: 0;
     }
     .container {
-        padding: 0;
+        padding: 10px 0;
     }
     .action-buttons {
         padding: 0 40px 30px 40px;

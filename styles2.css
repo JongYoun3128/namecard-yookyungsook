@@ -33,12 +33,12 @@ html {
 
 /* 섹션 공통 스타일 */
 
-.section-title {
-    font-size: 3.5rem;
+.section-title1 {
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
-    color: var(--primary-dark);
+    color: white;
 }
 
 .section-subtitle {
@@ -249,7 +249,9 @@ html {
     );
     z-index: 0;
 }
-
+.section-title {
+    text-align: center;
+}
 .other-business .container {
     position: relative;
     z-index: 1;
@@ -258,7 +260,7 @@ html {
 .business-grid {
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
     gap: 2rem;
     margin: 0 auto;
     margin-top: 3rem;
